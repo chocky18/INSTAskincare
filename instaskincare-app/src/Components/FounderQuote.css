@@ -1,0 +1,47 @@
+.founder-container {
+  background-color: #f1e4fd;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 76%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.founder-heading {
+  font-size: 0.875rem;
+  /* font-weight: 400; */
+  font-weight: bold;
+  color: #4b5563;
+  margin-bottom: 1rem;
+  font-family: "Parisienne", cursive;
+  font-optical-sizing: auto;
+}
+
+.founder-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #1f2937;
+  line-height: 1.6;
+  margin-top: 1rem;
+  font-family: "Montserrat", cursive;
+  font-optical-sizing: auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.founder-signature {
+  margin-top: 2rem;
+}
+
+.signature-text {
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.founder-name {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #4b5563;
+}
