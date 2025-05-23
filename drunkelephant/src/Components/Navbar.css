@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Sora:wght@300;400;500;600&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAFAFA;
+  height: 53px;
+  /* Dark background */
+  padding: 0.8rem 1.5rem;
+  border-bottom: 1px solid #eee;
+  /* padding-left: 2%; */
+}
+
+/* Logo Styling */
+.navbar-logo img.logo-img {
+  height: 46px;
+  width: 80px;
+}
+
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 90px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  padding-left: 28%;
+  font-family: "Parisienne", cursive;
+  font-optical-sizing: auto;
+  font-size: 37px;
+}
+
+.navbar-links li {
+  margin-left: 1.5rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #FF3EBF;
+  /* Hover effect color */
+}
+
+/* Top Bar Styling */
+
+.top-bar {
+  position: relative;
+  /* Needed for ::after to position absolutely */
+  background-color: #FAFAFA;
+  color: #B088F9;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  height: 33px;
+  font-family: "Montserrat", cursive;
+  font-optical-sizing: auto;
+  display: inline-block;
+  /* or 'block', but inline-block works best for text underline */
+  cursor: pointer;
+  /* padding-bottom: 4px; */
+  padding: 0.5rem 1rem;
+  text-align: center;
+
+}
+
+.top-bar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000000;
+  transition: width 0.3s ease;
+}
+
+.top-bar:hover::after {
+  width: 100%;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+  padding: 12px;
+  color: #000000;
+}
+
+/* Icon styles */
+.icon-link {
+  font-size: 22px;
+  color: #000000;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #FF3EBF;
+  transform: scale(1.1);
+}
+
+/* Navbar.css */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100px; */
+}
+
+.logo-img {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  border-radius: 12px;
+  /* Optional: soften the square look if background isn't removed */
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+}

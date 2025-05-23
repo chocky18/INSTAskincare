@@ -1,0 +1,50 @@
+.highlight-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F5;
+  /* Neon yellow-green */
+  padding: 40px;
+  border-radius: 12px;
+  font-family: sans-serif;
+}
+
+.highlight-text {
+  flex: 1;
+  /* Ensures the text section takes up available space */
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.highlight-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: 1px solid #FF7F00;
+  background: #7E7E7E;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+}
+
+.highlight-button:hover {
+  background: #7E7E7E;
+  color: #FF7F00;
+}
+
+.highlight-image {
+  flex: 1;
+  /* Ensures the image section takes up the other half */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: opacity 0.5s ease-in-out;
+}
